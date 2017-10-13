@@ -12,7 +12,7 @@
 // MIT License   - www.WebRTC-Experiment.com/licence
 // --------------------------------------------------
 
-window.RTCMultiConnection = function(roomid, forceOptions) {
+window.RTCMultiConnection = function(roomid, io, forceOptions) {
 
     function SocketConnection(connection, connectCallback) {
         var parameters = '';
@@ -5798,3 +5798,5 @@ window.RTCMultiConnection = function(roomid, forceOptions) {
     })(this);
 
 };
+
+module.exports= window.RTCMultiConnection

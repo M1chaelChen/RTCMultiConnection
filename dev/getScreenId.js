@@ -287,3 +287,5 @@ try {
         });
     };
 })();
+
+module.exports = getScreenConstraints
